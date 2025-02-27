@@ -27,6 +27,8 @@ if input_file is not None:
         output_image = ImageConverter.convert_image(input_file, option)
 
         file_name = file_name.replace(file_ext.lower(), option.lower())
+
+        st.toast(f"Image successfully converted to {option} format.", icon="✅")
         
         st.download_button(
             label="Download Image",
