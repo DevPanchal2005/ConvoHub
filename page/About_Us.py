@@ -11,6 +11,10 @@ with st.container(border=True):
     st.link_button("LinkedIn", "https://www.linkedin.com/in/dev-panchal-connect/", icon="🔗", use_container_width=True)
     st.link_button("GitHub", "https://github.com/DevPanchal2005", icon="🔗", use_container_width=True)
 
+    " **Tarun Jain**"
+    st.link_button("LinkedIn", "https://www.linkedin.com/in/tarun-jain-224007289", icon="🔗", use_container_width=True)
+    st.link_button("GitHub", "https://github.com/tarun-jaiin", icon="🔗", use_container_width=True)
+
 with st.container(border=True):
     "## GitHub Repository :"
     st.link_button("ConvoHub", "https://github.com/DevPanchal2005/ConvoHub", icon="🔗")
