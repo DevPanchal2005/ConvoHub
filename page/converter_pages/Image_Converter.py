@@ -4,6 +4,8 @@ from converters.image_converters.image_converter import ImageConverter
 
 st.logo('resources/logo.png', size='large')
 
+st.title('Image Converter')
+
 # Allowed image formats
 supported_formats = ["JPG", "JPEG", "PNG", "WEBP", "TIFF", "BMP", "ICO", "GIF", "PDF"]
 

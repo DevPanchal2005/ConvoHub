@@ -6,6 +6,8 @@ from converters.data_converters.json_converter import JSONConverter
 
 st.logo('resources/logo.png', size='large')
 
+st.title('Data Converter')
+
 input_file = st.file_uploader("Upload a CSV or Excel or JSON file", type=["csv", "xlsx", "json"])
 
 if input_file is not None:

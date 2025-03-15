@@ -62,6 +62,7 @@ class CSVConverter:
     def csv_to_html(input_file):
         buffer = BytesIO()
         df = pd.read_csv(input_file)
+        df = df.iloc[:,:3] # Limit to first 3 columns
 
         # Convert DataFrame to HTML table with Bootstrap styling
         html_table = df.to_html(index=False, escape=False, classes="table table-bordered table-striped")
